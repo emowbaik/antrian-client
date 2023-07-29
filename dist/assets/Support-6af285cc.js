@@ -1,0 +1,1 @@
+import{_ as t}from"./_plugin-vue_export-helper-c27b6911.js";import{o as e,a as o,H as s}from"./runtime-core.esm-bundler-cfb3c51b.js";const c={},r={class:"mx-auto"},a=s("h2",{class:"text-lg font-medium text-gray-900"},"Support",-1),_=[a];function n(d,i){return e(),o("div",r,_)}const f=t(c,[["render",n]]);export{f as default};

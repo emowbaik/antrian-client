@@ -1,0 +1,187 @@
+
+
+/* ukuran layar diantara 300px 350px*/
+@media only screen and (min-width: 305px) and (max-width: 350px) {
+    /* NAVBAR */
+
+  .navCSS {
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 80%;
+  }
+  .navCSS a {
+    display: flex;
+    /* background-color: aqua; */
+    width: 4rem;
+    height: 80%;
+    overflow: hidden;
+    justify-content: center;
+    place-items: center;
+    margin-right: 3%;
+  }
+  .navCSS img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain
+  }
+  .TextNav {
+    /* background-color: bisque; */
+    overflow: hidden;
+    width: 100%;
+    height: 80%;
+  }
+  .TextNav p {
+    font-size: 14px;
+    margin-bottom: -10px;
+    padding: 0;
+  }
+
+  .TextNav span {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+  }
+  .SearchNav {
+    /* background-color: blueviolet; */
+    overflow: hidden;
+    width: 20%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .SearchNav a {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .SearchNav .icon {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    margin-top: -2px;
+    margin-bottom: 3px;
+  }
+
+  .SearchNav span {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* END NAVBAR */
+
+  /* BANNER */
+  
+  .BannerCSS {
+    /* background-color: aquamarine; */
+    margin: auto;
+    width: 95%;
+    height: 8.9rem;
+  }
+
+  .BannerCSS .vueperslides {
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 95px;
+    object-fit: contain;
+
+  }
+  .vueperslides__bullets {
+    width: 100%;
+    height: 40%;
+  }
+  
+  /* END BANNER */
+
+  /* CARD */
+  .SaldoTunai p {
+    font-size: 10px;
+  }
+
+  .TextTopUp a{
+    font-size: 8px;
+  }
+
+  .TextTopUp .IconTopUp {
+    width: 10px;
+    height: 10px;
+  }
+
+  .TextWithdraw a{
+    font-size: 8px;
+  }
+
+  .TextWithdraw .IconWithdraw {
+    width: 10px;
+    height: 10px;
+  }
+
+
+  .SaldoReff p {
+    font-size: 10px;
+  }
+
+  .SaldoReff span {
+    margin-left: 4px;
+  }
+
+  .Pindahkan p{
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+
+  .Pindahkan a{
+    font-size: 8px;
+  }
+
+
+  /* Kategori */
+
+  .KategoriCSS div{
+    /* background-color: rgb(234, 246, 0); */
+    width: 70px;
+    margin-bottom: -1px;
+    margin-top: -9px;
+  }
+
+  .KategoriCSS div div{
+    /* background-color: rgb(234, 246, 0); */
+    width: 28px;
+    margin-bottom: -10px;
+  }
+
+  .KategoriCSS p{
+    /* background-color: rgb(246, 0, 0); */
+    font-size: 10px;
+  }
+  /* End Kategori */
+
+  /* Menu Bawah */
+
+  .MENUBAWAH .icon {
+    width: 30px;
+    height: 17px;
+    object-fit: contain;
+  }
+    .MENUBAWAH span {
+        font-size: 12px;
+        width: 40px;
+        height: 15px;
+        object-fit: contain;
+        display: flex;
+        justify-content: center;
+    }
+  /* End Menu Bawah */
+
+  /* Kategori */
+    /* Input Search */
+    ::placeholder {
+        font-size: 10px;
+        color: rgb(0, 0, 0);
+    }
+
+    /* End Search */
+  /* End Kategori */
+}
